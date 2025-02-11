@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
+
+.headers {
+  width: 1440px;
+  height: 80px;
+  margin: 0 auto;
+  box-shadow: 0px 2px 4px 0px #0000000e;
+
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 40px;
+  align-items: center;
+  font-family: "Nunito Sans";
+}
+.logo {
+  /* color: #000; */
+  text-decoration: none;
+}
+
+.themebtn {
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21.82px;
+  letter-spacing: 0px;
+  cursor: pointer;
+}
+
+.themebtn img {
+  width: 18px;
+  margin-top: -4px;
+}
+
+.search {
+  width: 1240px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 48px;
+}
+
+.search img {
+  position: absolute;
+  z-index: 2;
+  width: 15px;
+  left: 160px;
+}
+
+#searchInput {
+  width: 480px;
+  height: 56px;
+  border-radius: 5px;
+  border: none;
+  padding: 10px 60px;
+  font-family: "Nunito Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0px;
+  background-color: #2b3844;
+  box-shadow: 0px 2px 9px 0px #2b3844;
+
+  position: relative;
+  z-index: 1;
+}
+.selectRegion {
+  width: 60px;
+  border-radius: 5px;
+  font-size: medium;
+  font-family: "Nunito Sans";
+  border: none;
+  padding: 10px;
+  background-color: greenyellow;
+  color: rgb(7, 7, 220);
+  box-shadow: 0px 2px 9px 0px #2b3844;
+}
+
+.cards {
+  width: 1240px;
+  font-family: "Nunito Sans";
+  margin: 48px auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.cards .cardchild {
+  box-shadow: 0px 0px 7px 2px gray;
+  border-radius: 20px 20px 20px 20px;
+}
+
+.cardchild h3 {
+  margin: 8px 24px;
+}
+
+.cardchild div {
+  margin-left: 24px;
+  margin-bottom: 50px;
+}
+.cardchild div h5 {
+  font-family: "Nunito Sans";
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+}
+.cardchild div h5 span {
+  font-family: "Nunito Sans";
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0px;
+}
